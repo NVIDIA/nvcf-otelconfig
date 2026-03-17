@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+
+apiVersion: v2
+name: opentelemetry-collector
+description: A helm chart for opentelemetry-collector
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
+dependencies:
+  - name: opentelemetry-collector
+    version: "0.119.0"
+    repository: "https://open-telemetry.github.io/opentelemetry-helm-charts"
+    alias: otel-collector
