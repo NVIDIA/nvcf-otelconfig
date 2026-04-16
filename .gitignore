@@ -1,0 +1,21 @@
+.idea
+.vscode
+.DS_Store
+config.yaml
+_output/
+
+# otel binary for testing
+otelcol-contrib
+.*kubeconfig*
+
+# python scripts for validator
+__pycache__/
+venv/
+.python-version
+.venv/
+
+# Claude Code
+.claude/
+
+# temp result files
+**/*_result.json
